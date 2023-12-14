@@ -1,0 +1,135 @@
+html, body{
+    font-family: 'Noto Sans TC','Lato',sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333333;
+    background-color: #f6f7f8;
+    box-sizing: border-box;
+}
+
+header{
+    height:60px;
+    color:#666666;
+    box-shadow:0 4px 12px 0 rgba(0,0,0,0.08)
+}
+
+header nav {
+    margin:0 auto;
+    padding:0 20px;
+    max-width: 820px;
+    height:100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-title{
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.nav-link{
+    color:#666666;
+}
+
+.nav-link:hover{
+    font-size:24px;
+    color: #ff6600;
+}
+
+
+main {
+    max-width: 780px;
+    margin:0 auto;
+    padding:40px 20px;
+}
+
+h2{
+    font-size: 32px;
+    margin:24px 0 8px;
+}
+
+h3 {
+    font-size: 21px;
+    margin: 0 0 8px;
+    font-weight: 500;  
+  }
+
+section{
+    margin-bottom: 48px;
+}
+
+p{
+    color:#666666
+}
+
+.avatar{
+    text-align: center;
+}
+.avatar img{
+    border-radius: 50%;
+}
+
+.name{
+    text-align:center;
+    font-size: 32px;
+    margin: 20px 0 ;
+}
+
+.social-media{
+    font-size:20px;
+    text-align:center;
+    margin-bottom: 20px;
+}
+
+.social-media-link{
+    margin:0 5px;
+    color:#999999;
+    text-decoration: none;
+    
+}
+
+.social-media-link:hover{
+    font-size:24px;
+    color:#ff6600;
+}
+
+.title{
+    margin:0 0 20px 0;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color:#ff6600
+}
+
+.skills{
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.skill {
+    width: 30%;
+}
+
+.skill-name{
+    border-top: 1px solid #999999;
+    padding-top: 16px;
+}
+
+hr{
+    border: 0px;
+    height: 1px;
+    background: #cccccc;
+    margin:20px 0;
+}
+
+.company, .duration {
+    color:#666666;
+    font-size: 12px;
+    margin-right: 20px;
+}
+
+.fa-building, .fa-calendar-days {
+    margin-right: 5px;
+}
